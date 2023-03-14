@@ -10,9 +10,16 @@ body{
 
 .todo-list{
     margin: 1rem;
-    background: linear-gradient(to right, rgba(216, 217, 226, 0.405), rgba(222, 230, 213, 0.182));
+    /* background: linear-gradient(to right, rgba(216, 217, 226, 0.405), rgba(222, 230, 213, 0.182)); */
+    border-radius: 10px;
 }
 .todo{
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+    border-radius: 10px;
     background: linear-gradient(to right, rgba(55, 55, 55, 0.405), rgba(255, 255, 255, 0.255));
 }
 .todo > *{
