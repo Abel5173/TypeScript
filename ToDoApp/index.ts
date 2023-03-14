@@ -1,6 +1,6 @@
-let c = document.getElementById("list") as HTMLInputElement;
-let container = document.getElementById("container") as HTMLDivElement;
-let button = document.getElementById("add") as HTMLButtonElement;
+var c = document.getElementById("list") as HTMLInputElement;
+var container = document.getElementById("container") as HTMLDivElement;
+var button = document.getElementById("add") as HTMLButtonElement;
 
 button.addEventListener('click', function(){
 let paragraph = document.createElement('p');
